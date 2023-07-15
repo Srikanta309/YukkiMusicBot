@@ -1,4 +1,4 @@
-from yukki import app 
+from yukkiMusic import app 
 import asyncio
 import random
 from pyrogram import Client, filters
