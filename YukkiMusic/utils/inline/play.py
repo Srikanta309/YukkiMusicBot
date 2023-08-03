@@ -52,7 +52,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text=_["CLOSEMENU_BUTTON"], callback_data="𝐂𝐥𝐨𝐬𝐞"
             )
         ],
     ]
@@ -74,7 +74,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text=_["CLOSEMENU_BUTTON"], callback_data="𝐂𝐥𝐨𝐬𝐞"
             ),
         ],
     ]
@@ -98,7 +98,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text=_["CLOSEMENU_BUTTON"], callback_data="𝐂𝐥𝐨𝐬𝐞"
             )
         ],
     ]
@@ -113,7 +113,7 @@ def telegram_markup(_, chat_id):
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text=_["CLOSEMENU_BUTTON"], callback_data="𝐂𝐥𝐨𝐬𝐞"
             ),
         ],
     ]
